@@ -4,7 +4,6 @@ public class Advogado extends Funcionario {
 
 	public Advogado(String nome, double salario, String cpf) {
 		super(nome, salario, cpf);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
