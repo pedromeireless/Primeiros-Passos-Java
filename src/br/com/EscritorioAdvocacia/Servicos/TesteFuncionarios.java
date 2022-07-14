@@ -1,12 +1,6 @@
 package br.com.EscritorioAdvocacia.Servicos;
 
-import br.com.EscritorioAdvocacia.Modelos.Advogado;
-import br.com.EscritorioAdvocacia.Modelos.Assessor;
-import br.com.EscritorioAdvocacia.Modelos.Estagiario;
-import br.com.EscritorioAdvocacia.Modelos.Funcionario;
-import br.com.EscritorioAdvocacia.Modelos.Gerente;
-import br.com.EscritorioAdvocacia.Modelos.SistemaInterno;
-import br.com.EscritorioAdvocacia.Modelos.Socio;
+import br.com.EscritorioAdvocacia.Modelos.*;
 
 public class TesteFuncionarios {
 
