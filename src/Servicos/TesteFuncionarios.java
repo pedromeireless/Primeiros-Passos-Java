@@ -1,5 +1,12 @@
-package Modelos;
+package Servicos;
 
+import Modelos.Advogado;
+import Modelos.Assessor;
+import Modelos.Estagiario;
+import Modelos.Funcionario;
+import Modelos.Gerente;
+import Modelos.SistemaInterno;
+import Modelos.Socio;
 
 public class TesteFuncionarios {
 
