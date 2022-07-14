@@ -1,4 +1,4 @@
-package Modelos;
+package br.com.EscritorioAdvocacia.Modelos;
 
 public class SistemaInterno {
 	// private int senha = 2345;

@@ -1,4 +1,4 @@
-package Modelos;
+package br.com.EscritorioAdvocacia.Modelos;
 
 public abstract class Funcionario {
 	

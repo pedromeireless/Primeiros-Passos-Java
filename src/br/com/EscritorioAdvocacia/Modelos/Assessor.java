@@ -1,4 +1,4 @@
-package Modelos;
+package br.com.EscritorioAdvocacia.Modelos;
 
 public class Assessor extends Funcionario {
 

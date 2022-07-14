@@ -1,16 +1,15 @@
-package Modelos;
+package br.com.EscritorioAdvocacia.Modelos;
 
-public class Socio extends Funcionario implements Administracao {
-	private int senha;
-
-	public Socio(String nome, double salario, String cpf, int senha) {
+public class Gerente extends Funcionario implements Administracao {
+	protected int senha;
+	
+	public Gerente(String nome, double salario, String cpf, int senha) {
 		super(nome, salario, cpf);
 		this.senha = senha;
 	}
 
 	@Override
 	public String getNome() {
-		
 		return this.nome;
 	}
 
@@ -29,20 +28,22 @@ public class Socio extends Funcionario implements Administracao {
 	@Override
 	public double getBonificacao() {
 		
-		return this.salario * 0.35;
+		return this.salario * 0.25;
 	}
 
 	@Override
 	public int getSenhaAdm() {
 		return this.senha;
 	}
-	
+
+	@Override
 	public boolean autenticaSenha(String senha) {
-		if (senha.length() > 5) {
+		if (senha.length() > 3) {
 			return true;
 		} else {
 			return false;
 		}
+		
 	}
 
 }
